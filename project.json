@@ -1,19 +1,17 @@
 {
-  "name": "YouTube",
-  "description": "This process communicates with YouTube",
-  "main": "GetPlaylistItems.xaml",
+  "name": "YouTube Playlists",
+  "description": "Blank Library",
+  "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.16.1]",
-    "UiPath.Python.Activities": "[1.6.0]",
-    "UiPath.System.Activities": "[22.10.4]",
-    "UiPath.UIAutomation.Activities": "[22.10.4]",
-    "UiPath.WebAPI.Activities": "[1.13.3]"
+    "UiPath.Excel.Activities": "2.17.0-preview",
+    "UiPath.Python.Activities": "1.6.0",
+    "UiPath.UIAutomation.Activities": "22.10.4"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.4.4.0",
-  "projectVersion": "1.0.2",
+  "studioVersion": "22.12.0.0",
+  "projectVersion": "1.0.4",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -28,12 +26,12 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false,
+    "mustRestoreAllDependencies": true,
     "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Process",
+    "outputType": "Library",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -45,14 +43,6 @@
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
-  "entryPoints": [
-    {
-      "filePath": "GetPlaylistItems.xaml",
-      "uniqueId": "38798d67-bc6c-446f-abf6-e7d0568e4482",
-      "input": [],
-      "output": []
-    }
-  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {
